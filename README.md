@@ -1,3 +1,5 @@
+Card example: 4000003560000008
+
 # React + TypeScript + Vite
 
 Using shadcn for UI
