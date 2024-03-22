@@ -29,7 +29,7 @@ const HomePage = () => {
             Order takeaway even faster!
           </span>
           <span>
-            Download the MernEats App for faster ordering and personalised
+            Download the Let's-Eat App for faster ordering and personalised
             recommendations.
           </span>
 
