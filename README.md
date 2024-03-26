@@ -1,4 +1,5 @@
-MERN Food Ordering Website
+**MERN Food Ordering Website**
+
 This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application project built using TypeScript. The project incorporates various features to facilitate food ordering and restaurant management.
 
 Features
