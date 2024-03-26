@@ -2,6 +2,7 @@
 
 This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application project built using TypeScript. The project incorporates various features to facilitate food ordering and restaurant management.
 
+
 **Features**
 
 1) Responsive Design: The website is designed to be fully responsive, ensuring a seamless experience across various devices and screen sizes.
@@ -18,8 +19,8 @@ This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web applicati
 
 7) Filtering Options: Users can apply various filters while searching for restaurants, such as cuisine type, delivery time, and delivery charges, enabling them to find restaurants that meet their preferences.
 
-**Technologies Used**
 
+**Technologies Used**
 1) MongoDB: NoSQL database for storing application data.
 2) Express.js: Web application framework for Node.js.
 3) React.js: JavaScript library for building user interfaces.
@@ -33,11 +34,11 @@ This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web applicati
 https://mern-food-ordering-app-frontend-nj2c.onrender.com/
 
 
-Card example: 4000003560000008
+**Acknowledgements**
+1) Auth0 Documentation
+2) Stripe Documentation
+3) React Documentation
+4) Express.js Documentation
+5) MongoDB Documentation
 
-Acknowledgements
-Auth0 Documentation
-Stripe Documentation
-React Documentation
-Express.js Documentation
-MongoDB Documentation
+Card example for stripe payment: 4000003560000008
