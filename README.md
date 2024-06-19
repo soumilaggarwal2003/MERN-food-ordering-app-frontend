@@ -59,27 +59,14 @@ yarn install
 
 Create a .env file in the root directory and add the following variables:
 
-MONGO_CONNECTION_STRING=
+VITE_API_BASE_URL=
 
-AUTH0_AUDIENCE=
+VITE_AUTH0_DOMAIN=
 
-AUTH0_ISSUER_BASE_URL=
+VITE_AUTH0_CLIENT_ID=
 
-**Cloudinary**
+VITE_AUTH0_CALLBACK_URL=
 
-CLOUDINARY_CLOUD_NAME=
-
-CLOUDINARY_API_KEY=
-
-CLOUDINARY_API_SECRET=
-
-**Stripe**
-
-FRONTEND_URL= 
-
-STRIPE_API_KEY=
-
-STRIPE_WEBHOOK_SECRET=
 
 **Run the development server:**
 
