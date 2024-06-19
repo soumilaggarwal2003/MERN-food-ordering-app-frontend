@@ -1,44 +1,121 @@
-**MERN Food Ordering Website**
-
+# MERN Food Ordering Website
 This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application project built using TypeScript. The project incorporates various features to facilitate food ordering and restaurant management.
 
+# Features
+**Responsive Design:** The website is fully responsive, ensuring a seamless experience across various devices and screen sizes.
 
-**Features**
+**Pagination:** Enhanced user experience with pagination for browsing through multiple pages of content.
 
-1) Responsive Design: The website is designed to be fully responsive, ensuring a seamless experience across various devices and screen sizes.
+**Auth0 Integration:** Secure user authentication and authorization handled using Auth0.
 
-2) Pagination: Pagination functionality is implemented to enhance the user experience when browsing through multiple pages of content.
+**Stripe Payment Handling:** Secure payment processing via Stripe, allowing users to make payments for their orders.
 
-3) Auth0 Integration: User authentication and authorization are handled using Auth0, providing secure access control to the application.
+**Restaurant Management:** Users can create and manage their restaurants, including menu items, cuisines, delivery charges, and restaurant images.
 
-4) Stripe Payment Handling: Payment processing is facilitated through Stripe, allowing users to securely make payments for their orders.
+**Real-time Order Tracking:** Users can track the status of their orders in real-time, providing transparency and convenience.
 
-5) Restaurant Management: Users can create and manage their restaurants, including menu items, cuisines, delivery charges, restaurant image.
+**Filtering Options:** Users can apply filters such as cuisine type, delivery time, and delivery charges while searching for restaurants.
 
-6) Real-time Order Tracking: Users can track the status of their orders in real-time, providing transparency and convenience throughout the delivery process.
+# Technologies Used
+**MongoDB:** NoSQL database for storing application data.
 
-7) Filtering Options: Users can apply various filters while searching for restaurants, such as cuisine type, delivery time, and delivery charges, enabling them to find restaurants that meet their preferences.
+**Express.js:** Web application framework for Node.js.
 
+**React.js:** JavaScript library for building user interfaces.
 
-**Technologies Used**
-1) MongoDB: NoSQL database for storing application data.
-2) Express.js: Web application framework for Node.js.
-3) React.js: JavaScript library for building user interfaces.
-4) Node.js: JavaScript runtime for server-side development.
-5) TypeScript: Superset of JavaScript that adds static typing to the language.
-6) Auth0: Authentication and authorization platform.
-7) Stripe: Payment processing platform.
+**Node.js:** JavaScript runtime for server-side development.
 
+**TypeScript:** Superset of JavaScript that adds static typing to the language.
 
-**Hosted URL:**
+**Auth0:** Authentication and authorization platform.
+
+**Stripe:** Payment processing platform.
+# Getting Started
+**Prerequisites**
+
+Node.js
+
+npm or yarn
+
+MongoDB
+
+Auth0 account
+
+Stripe account
+
+# Installation
+
+**1) Clone the repository:**
+
+git clone https://github.com/soumilaggarwal2003/MERN-food-ordering-app-backend
+
+**2) Install dependencies:**
+
+npm install
+**or** 
+yarn install
+
+**3) Set up environment variables:**
+
+Create a .env file in the root directory and add the following variables:
+
+MONGO_CONNECTION_STRING=
+
+AUTH0_AUDIENCE=
+
+AUTH0_ISSUER_BASE_URL=
+
+**Cloudinary**
+
+CLOUDINARY_CLOUD_NAME=
+
+CLOUDINARY_API_KEY=
+
+CLOUDINARY_API_SECRET=
+
+**Stripe**
+
+FRONTEND_URL= 
+
+STRIPE_API_KEY=
+
+STRIPE_WEBHOOK_SECRET=
+
+**Run the development server:**
+
+npm run dev
+**or**
+yarn dev
+
+Open your browser and navigate to: http://localhost:3000
+
+# Usage
+Navigate to the hosted URL: https://mern-food-ordering-app-frontend-nj2c.onrender.com/
+
+Create an account or log in using Auth0.
+
+Browse restaurants, filter results, and place orders.
+
+Manage your restaurant if you are a registered owner.
+
+Track your order status in real-time.
+
+# Acknowledgements
+
+Auth0 Documentation
+
+Stripe Documentation
+
+React Documentation
+
+Express.js Documentation
+
+MongoDB Documentation
+
+# Hosted URL: 
 https://mern-food-ordering-app-frontend-nj2c.onrender.com/
 
+# Testing
+Use the following card number for Stripe payment testing:
 
-**Acknowledgements**
-1) Auth0 Documentation
-2) Stripe Documentation
-3) React Documentation
-4) Express.js Documentation
-5) MongoDB Documentation
-
-Card example for stripe payment: 4000003560000008
+Card Number: 4000 0035 6000 0008
